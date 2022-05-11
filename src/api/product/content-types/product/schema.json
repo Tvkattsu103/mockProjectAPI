@@ -28,6 +28,12 @@
         "videos",
         "audios"
       ]
+    },
+    "ID": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::cart.cart",
+      "inversedBy": "products"
     }
   }
 }

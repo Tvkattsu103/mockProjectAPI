@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "help_contacts",
+  "info": {
+    "singularName": "help-contact",
+    "pluralName": "help-contacts",
+    "displayName": "HelpContact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

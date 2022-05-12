@@ -12,12 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": true,
       "required": true,
